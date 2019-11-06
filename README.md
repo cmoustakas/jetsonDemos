@@ -5,7 +5,8 @@ Code Demos are basically implemented in :
   1. Jetson inference and Jetson utils (Tracking objects,vehicles and pedestrians)
   2. NPP CUDA API (Fast video Resizing)
   3. OpenCV::cuda class (Accelerated image stitching)
-Requirements and Tips  : 
+
+-> Requirements and Tips  : 
  ---------------------------------------------------------------------------------------------------------------------------------------
  **Jetson Inference**:
     https://github.com/dusty-nv/jetson-inference (Follow tutorial for installation and in-depth understanding)
