@@ -8,7 +8,8 @@ Code Demos are basically implemented in :
 Requirements and Tips  : 
  ---------------------------------------------------------------------------------------------------------------------------------------
  Jetson Inference : https://github.com/dusty-nv/jetson-inference (Follow tutorial for installation and in-depth understanding)
- Tip1:  If you supply jetson via micro USB , make sure that five Watt Mode is enabled.
+
+  Tip1:  If you supply jetson via micro USB , make sure that five Watt Mode is enabled.
  ---------------------------------------------------------------------------------------------------------------------------------------
  NPP : pre-installed in jetson platforms, link libraries very carefully(either static or dynamic).
  ---------------------------------------------------------------------------------------------------------------------------------------
@@ -17,4 +18,3 @@ Requirements and Tips  :
  Tip1:  Be carefull with cmake -D flags  
     if you are C++ programmer disable python . If you want to produce .pc file for pkg-config linking and SURF class add the respective     flags. 
  Tip2:  Be carefull with make -j , if your jetson operates in five Watt Mode make -j2  is recommended, else make -j4 should work fine.
------------------------------------------------------------------------------------------------------------------------------------------
