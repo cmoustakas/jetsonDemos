@@ -287,7 +287,7 @@ int main( int argc, char** argv )
 
 
 		// If Network Recognized Somethin Start Stitching Process 
-		if( numDetections>0 !spy && !predictDir && !threadFlag ){
+		if( numDetections>0 && !spy && !predictDir && !threadFlag ){
 			
 			/** capture two respective frames **/
 			camera->CaptureRGBA(&imgRGBA,1000,true);
