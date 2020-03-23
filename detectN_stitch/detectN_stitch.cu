@@ -221,11 +221,8 @@ int main( int argc, char** argv )
 		printf("detectnet-camera:   failed to load detectNet model\n");
 		return 0;
 	}
-
 	// parse overlay flags
-	const uint32_t overlaySpyFlags = detectNet::OverlayFlagsFromStr(cmdLine.GetString("overlay", "box,labels,conf"));
-	const uint32_t flagsForStitch = detectNet::OverlayFlagsFromStr(cmdLine.GetString("overlay", "none"));
-	const uint32_t overlayFlags = overlaySpyFlags;
+	const uint32_t overlayFlags = detectNet::OverlayFlagsFromStr(cmdLine.GetString("overlay", "box,labels,conf"));
 	/*
 	 * create openGL window
 	 */
@@ -367,7 +364,7 @@ int main( int argc, char** argv )
 
 		detectNet::Detection* detections = NULL;
 	
-		numDetections = net->Detect(imgRGBA, width, height, &detections, flagsForStitch);
+		numDetections = net->Detect(imgRGBA, width, height, &detections,overlayFlags);
 		
 		// update display
 		
