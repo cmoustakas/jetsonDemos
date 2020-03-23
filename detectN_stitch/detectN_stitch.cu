@@ -3,7 +3,7 @@
 
 
 	[+] Author : Chares Moustakas.
-	[+] E-mail : cmoustakas@ece.auth.gr , charesmoustakas@gmail.com 
+	[+] E-mail : <cmoustakas@ece.auth.gr> , <charesmoustakas@gmail.com> 
 	[+] Professor : Nikolaos Pitsianis,Dimitrios Floros. 
 	[+] University : Aristotle's University Of Thessaloniki 
 	[+] Department : Electrical and Computer Engineering 
@@ -11,7 +11,7 @@
 
 	[+] Project's Description : 
 		Based On detect-net Nvidia's Algorithm the below code loads a pretrained  neural network and renders frames 
-	with overlay boxes, in adittion also provides stitched images for further in-depth image recognition on a parallel 
+	with overlay boxes, in adittion ,it also provides stitched images for further in-depth image recognition on a parallel 
 	computing concept.
 
 **/
